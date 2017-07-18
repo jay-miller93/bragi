@@ -1,10 +1,55 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Corvette</title>
+    <link href="Style.css" rel="stylesheet" />
+   
 	<meta charset="utf-8" />
 </head>
-<body>
 
-</body>
+<body>
+    <!--Navbar-->
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #111;
+                }
+
+        .active {
+            background-color: #4CAF50;
+        }
+    </style>
+   
+        <ul>
+            <!--logo-->
+            <img id="logo" src="image/101812_2.jpg" width="150" height="100" alt="logo" />
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><a class="active" href="#about">About</a></li>
+        </ul>
+    
+    <img class="firstImage" src="image/maxresdefault.jpg" width="1325" height="500" alt="vette" />
+
+    <button class="button button2">BUY A VETTE!</button>
+    </body>
 </html>
